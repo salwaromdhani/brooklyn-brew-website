@@ -74,6 +74,24 @@ html, body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.underline{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.chip{
+  background: #333;
+  width:35px;
+  color:white;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center
+}
+.chip-brown{
+  background: #6e491e;
+}
+.chip-purple{
+  background: #a0006e;
+}
 /*mise en place du header*/
 header {
   background-color: #333;
@@ -149,7 +167,41 @@ header nav ul li a:hover {
   text-align: center;
 }
 
+/* Where */
+.where {
+    padding: 100px 0;
+    overflow: auto;
+    min-height: 100vh;
+}
 
+.where-img {
+    float: left;
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+.where-text {
+    float: right;
+    width: 55%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.where-text h1 {
+    margin-bottom: 20px;
+}
+
+.where-text h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.where-text p {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 /* Footer */
 footer {
@@ -158,12 +210,10 @@ footer {
     text-align: center;
     padding: 30px 0;
     width: 100%;
-    box-sizing: border-box;
 }
 
 footer p {
-  background-color: #222;
-    margin-bottom: 0;
+    margin: 0;
     text-align: center;
     color: #fff;
 }
